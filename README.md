@@ -1,3 +1,4 @@
+```
 $ http :5173/api/movies
 HTTP/1.1 200 OK
 Vary: Origin
@@ -235,3 +236,4 @@ x-powered-by: Express
         "updatedAt": "2025-02-21T23:25:47.269Z"
     }
 ]
+```
