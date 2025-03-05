@@ -73,11 +73,10 @@ function MovieCard({ movie }: MovieProps) {
         <li>
             <div className="row">
                 <div className="column-half">
-                    {/* <img
+                    <iframe
                         className="input-b-radius form-image"
-                        src={movie.photoUrl}
-                        alt=""
-                    /> */}
+                        src="https://www.imdb.com/videoembed/vi2025309977"
+                    ></iframe>
                 </div>
                 <div className="column-half">
                     <div className="row">

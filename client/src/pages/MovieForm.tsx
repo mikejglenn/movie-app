@@ -73,11 +73,10 @@ export function MovieForm() {
             <form onSubmit={handleSubmit}>
                 <div className="row margin-bottom-1">
                     <div className="column-half">
-                        {/* <img
+                        <iframe
                             className="input-b-radius form-image"
-                            src={photoUrl || '/images/placeholder-image-square.jpg'}
-                            alt="entry"
-                        /> */}
+                            src="https://www.imdb.com/videoembed/vi2025309977"
+                        ></iframe>
                     </div>
                     <div className="column-half">
                         <label className="margin-bottom-1 d-block">
